@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background: url("adventure_time_bg.jpg") center/cover no-repeat;
+  background: url("images/adventure_time_bg.jpg") center/cover no-repeat;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
@@ -41,20 +41,32 @@ h2 {
 }
 
 button {
-  border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
   font-weight: bold;
-  width: 200px;
+  width: 260px;
+  height: 50px;
   margin-bottom: 5px;
   border-radius: 5px;
+  border: 2px solid black;
 }
 
 #increment-btn {
-  background: darkred;
+  background-color: #306ecd;
+  background-image: url("images/jakeTheDog.png");
+  background-size: 35% auto;
+  background-position: left top;
+  background-repeat: no-repeat; 
+  padding-left: 65px
 }
 
 #save-btn {
-  background: darkgreen;
+  background-color: #F5BB12;
+  background-image: url("images/finn.png");
+  background-size: 31% auto;
+  background-position: right top;
+  background-repeat: no-repeat; 
+  padding-left: 20px; /* Moves text to the left */
+  text-align: left; /* Aligns text to the left */
 }
