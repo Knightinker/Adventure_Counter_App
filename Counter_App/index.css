@@ -18,6 +18,13 @@ body {
   text-align: center;
 }
 
+.container {
+    background: rgba(202, 204, 214, 0.581);
+    max-width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
 body::before {
   content: "";
   position: absolute;
