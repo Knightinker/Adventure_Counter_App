@@ -1,6 +1,7 @@
 let countEl = document.getElementById("count-el");
 let saveEl = document.getElementById("save-el");
 
+
 let count = 0;
 
 function increment() {
@@ -14,3 +15,9 @@ function save() {
   count = 0;
   countEl.textContent = count;
 }
+
+function clearCount() {
+    saveEl.textContent = "Previous adventures: "; // Resets but keeps the label
+    console.log("clear func");
+}
+
